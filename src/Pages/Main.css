@@ -1,0 +1,37 @@
+.MainContainer{
+  /* border: 3px solid; */
+  padding-left: 5% ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.MainContent{
+  /* border: 3px solid; */
+  width: 40%;
+}
+.MainContent h1{
+  color: rgb(21, 21, 35);
+  font-weight: 350;
+  font-size: 5.4rem;
+  line-height: 1;
+}
+.MainContent p{
+  color: grey;
+  margin-top: 5%;
+  font-size: 1.7rem;
+  margin-bottom: 6%;
+}
+.MainImageContainer{
+  /* border: 3px solid; */
+  background: url('bg-intro-desktop.svg');
+  background-size: cover;
+  background-position: top left;
+  /* width: 40%; */
+  overflow: hidden;
+}
+.MainImage{
+  width: 100%;
+  position: relative;
+  top: -40px;
+  right: -120px;
+}

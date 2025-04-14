@@ -1,0 +1,19 @@
+.ChoosingCustomCardContainer{
+  /* border: 3px solid; */
+  width: 20%;
+  height: 20rem;
+}
+
+.ChoosingCustomCardContainer img{
+  margin-bottom: 8%;
+}
+
+.ChoosingCustomCardContainer h1{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 8%;
+}
+
+.ChoosingCustomCardContainer p{
+  font-size: 1.2rem;
+}

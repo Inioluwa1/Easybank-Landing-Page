@@ -1,0 +1,16 @@
+.ArticlesPageContainer{
+  /* border: 3px solid; */
+  padding: 3% 5%;
+  background: linear-gradient(to bottom, rgb(255, 255, 255) 30%, rgba(128, 128, 128, 0.1));
+}
+.ArticlesPageContainer h1{
+  color: rgb(57, 57, 68);
+  font-weight: 400;
+}
+.ArticlesContentContainer{
+  /* border: 3px solid; */
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

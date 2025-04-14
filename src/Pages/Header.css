@@ -1,0 +1,53 @@
+.HeaderContainer{
+  /* border: 3px solid; */
+  /* padding-left: 10% ; */
+}
+.Header{
+  width: 90%;
+  /* border: 3px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+.HeaderImageContainer{
+  /* border: 3px solid; */
+  width: 15%
+}
+.HeaderImage{
+  width: 100%;
+}
+.HeaderLinksContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 3px solid; */
+  width: 40%;
+}
+.HeaderLinksContainer p{
+  color: grey;
+  cursor: pointer;
+  padding: 2rem;
+}
+.HeaderLinksContainer p:hover{
+  border-bottom: 3px solid green;
+}
+.HeaderButton{
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to right, rgb(49, 207, 112), rgb(43, 184, 216) ) ; 
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.HeaderButton:hover{
+  background: linear-gradient(to right, rgb(43, 184, 216), rgb(49, 207, 112) ) ; 
+  color: black;
+}
+.HeaderMenuImage{
+  display: none;
+}

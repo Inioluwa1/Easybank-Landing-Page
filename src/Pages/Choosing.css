@@ -1,0 +1,25 @@
+.ChoosingContainer{
+  /* border: 3px solid; */
+  padding: 5% 5%;
+  background-color: rgb(244, 245, 247);
+}
+.ChoosingContainer h1{
+  color: rgb(21, 21, 35);
+  font-weight: 350;
+  font-size: 4rem;
+  line-height: 1;
+}
+.ChoosingContainer p{
+  color: grey;
+  margin-top: 1%;
+  font-size: 1.7rem;
+  /* margin-bottom: 6%; */
+}
+.ChoosingCardsContainer{
+  /* border: 3px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  /* width: 95%; */
+}
