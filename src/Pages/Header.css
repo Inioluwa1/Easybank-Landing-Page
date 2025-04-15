@@ -3,14 +3,17 @@
   /* padding-left: 10% ; */
 }
 .Header{
-  width: 90%;
+  width: 100%;
   /* border: 3px solid green; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: auto;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
   font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(50px);
 } 
 .HeaderImageContainer{
   /* border: 3px solid; */
@@ -69,7 +72,7 @@
     flex-direction: column;
     position: absolute;
     background-color: white;
-    top: 14%;
+    top: 7rem;
     right: 5%;
     padding: 0.5rem 0;
     display: none;
