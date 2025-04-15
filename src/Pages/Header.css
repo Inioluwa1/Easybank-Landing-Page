@@ -14,7 +14,7 @@
 } 
 .HeaderImageContainer{
   /* border: 3px solid; */
-  width: 15%
+  width: 15%;
 }
 .HeaderImage{
   width: 100%;
@@ -24,7 +24,6 @@
   align-items: center;
   justify-content: space-between;
   /* border: 3px solid; */
-  width: 42%;
 }
 .HeaderLinksContainer p{
   color: grey;
@@ -52,7 +51,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   .Header{
     width: 100%;
     padding: 2rem 1rem ;
@@ -98,9 +97,10 @@
   } 
 }
 
-@media screen and (min-width: 701px) {
+/* @media screen and (max-width: 1500px) {
   .HeaderImageContainer{
-    width: 50%
+    width: 50%;
+    border: 3px solid;
   }
   .HeaderMenuImage{
     width: 8%;
@@ -110,4 +110,4 @@
     width: 95%;
     right: 2.5%;
   }
-}
+} */

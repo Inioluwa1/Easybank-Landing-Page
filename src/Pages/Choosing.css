@@ -24,7 +24,7 @@
   /* width: 95%; */
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1100px) {
 .ChoosingContainer{
   text-align: center;
 }
@@ -33,7 +33,7 @@
   margin-bottom: 1rem;
   font-weight: 200;
 }
-.ChoosingContainer p{
+.ChoosingContainer p{ 
   font-size: 1.1rem;
 }
 .ChoosingCardsContainer{
