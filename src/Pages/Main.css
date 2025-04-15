@@ -21,6 +21,20 @@
   font-size: 1.7rem;
   margin-bottom: 6%;
 }
+.MainButton{
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(to right, rgb(49, 207, 112), rgb(43, 184, 216) ) ; 
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.MainButton:hover{
+  background: linear-gradient(to right, rgb(43, 184, 216), rgb(49, 207, 112) ) ; 
+  color: black;
+}
 .MainImageContainer{
   /* border: 3px solid; */
   background: url('bg-intro-desktop.svg');
@@ -34,4 +48,37 @@
   position: relative;
   top: -40px;
   right: -120px;
+}
+
+@media screen and (max-width:1200px) {
+  .MainContainer{
+    flex-direction: column-reverse;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  .MainImageContainer{
+    background: url('bg-intro-mobile.svg');
+    background-size: cover;
+    background-position: top left;
+    width: 100%;
+  }
+  .MainImage{
+    position: relative;
+    top: -160px;
+    right: 0;
+  }
+  .MainContent{
+    width: 95%;
+    text-align: center;
+  }
+  .MainContent h1{
+    font-size: 3rem;
+    font-weight: 200;
+  }
+  .MainContent p{
+    font-size: 1.1rem;
+  }
+  .MainButton{
+    margin-bottom: 2rem;
+  }
 }

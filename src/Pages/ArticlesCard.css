@@ -47,3 +47,23 @@
 .ArticleCardContent .Details{
   color: grey;
 }
+
+@media screen and (max-width:1200px) {
+  .ArticlesCardContainer{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .ArticleCardContent{
+    width: 94%;
+    height: 12rem;
+  }
+  .ArticleCardContent h1{
+    font-size: 1.5rem;
+    text-align: start ;
+  }
+  .ArticleCardContent .Details{
+    font-size: 0.9rem;
+  }
+  
+}

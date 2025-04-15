@@ -15,11 +15,29 @@
   font-size: 1.7rem;
   /* margin-bottom: 6%; */
 }
-.ChoosingCardsContainer{
+.ChoosingCardsContainer{ 
   /* border: 3px solid; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 5%;
   /* width: 95%; */
+}
+
+@media screen and (max-width:1200px) {
+.ChoosingContainer{
+  text-align: center;
+}
+.ChoosingContainer h1{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 200;
+}
+.ChoosingContainer p{
+  font-size: 1.1rem;
+}
+.ChoosingCardsContainer{
+  margin-top: 3rem;
+  flex-direction: column;
+}  
 }

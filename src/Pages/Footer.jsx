@@ -31,9 +31,10 @@ export default function Footer() {
           <p>Privacy Policy </p>
       </div>
       <div className='Footer'>
-        <button className='HeaderButton'>Request Invite</button>
+        <button className='FooterButton'>Request Invite</button>
         <p>© Easybank. All Rights Reserved</p>
       </div>
     </div>
   ) 
 }
+ 

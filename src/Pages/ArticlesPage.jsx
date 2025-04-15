@@ -3,7 +3,7 @@ import "./ArticlesPage.css"
 import Articles from './Articles'
 import ArticlesCard from './ArticlesCard'
 
-export default function ArticlesPage() {
+export default function  ArticlesPage() {
   return (
     <div className='ArticlesPageContainer'>
       <h1> Latest Articles </h1>
