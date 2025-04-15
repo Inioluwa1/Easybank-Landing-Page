@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 3px solid;
+  /* border: 3px solid; */
   width: 42%;
 }
 .HeaderLinksContainer p{

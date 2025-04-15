@@ -37,7 +37,7 @@
 }
 .MainImageContainer{
   /* border: 3px solid; */
-  background: url('bg-intro-desktop.svg');
+  background-image: url('bg-intro-desktop.svg');
   background-size: cover;
   background-position: top left;
   /* width: 40%; */
